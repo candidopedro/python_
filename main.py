@@ -1,6 +1,9 @@
-#Desconto
-valor = float(input('Digite o valor do produto: '))
-desconto = int(input('Digite o percentual de desconto:'))
+#Quantos dias um produto duraria se a pessoa usar X porções por dia
 
-valor_com_desconto = valor - (valor * (desconto/100))
-print (f'Valor final do produto: {valor_com_desconto}')
+print('Teste de duração')
+total_porcoes = int(input('Quantas porções o produto tem?'))
+porcoes_por_dia = int(input('Quantas porções você consome por dia?'))
+
+dias = total_porcoes/porcoes_por_dia
+
+print(f'Vai durar {int(dias)} dias')
