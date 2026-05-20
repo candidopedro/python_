@@ -1,9 +1,6 @@
-#Quantos dias um produto duraria se a pessoa usar X porções por dia
+#Detector de maior idade
 
-print('Teste de duração')
-total_porcoes = int(input('Quantas porções o produto tem?'))
-porcoes_por_dia = int(input('Quantas porções você consome por dia?'))
+idade = int(input('Qual é a sua idade? '))
+verificador = idade >=18
 
-dias = total_porcoes/porcoes_por_dia
-
-print(f'Vai durar {int(dias)} dias')
+print(f'É maior de idade? {verificador}')
