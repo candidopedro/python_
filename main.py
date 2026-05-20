@@ -1,3 +1,6 @@
-nome = input('Digite seu nome: ')
-idade = int(input('Digite sua idade: '))
-print(f'Olá {nome}! Você tem {idade+5} anos de idade')
+#Desconto
+valor = float(input('Digite o valor do produto: '))
+desconto = int(input('Digite o percentual de desconto:'))
+
+valor_com_desconto = valor - (valor * (desconto/100))
+print (f'Valor final do produto: {valor_com_desconto}')
