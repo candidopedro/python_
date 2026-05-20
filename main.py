@@ -1,6 +1,10 @@
-#Detector de maior idade
+#Condicionais
 
-idade = int(input('Qual é a sua idade? '))
-verificador = idade >=18
+idade = 18
 
-print(f'É maior de idade? {verificador}')
+if idade >= 18:
+    print('Você é maior de idade')
+elif idade >65:
+    print('Você já está na classe de idosos')
+else:
+    print('Você é menor de idade')
