@@ -1,5 +1,5 @@
 #While
-a = 0
-while a <5:
-    a = a + 1
-    print(a)
+password = ''
+while password != '9983':
+        password = input('Digite a senha: ')
+print('Acesso liberado!')
