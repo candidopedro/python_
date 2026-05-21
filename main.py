@@ -1,5 +1,7 @@
-#While
-password = ''
-while password != '9983':
-        password = input('Digite a senha: ')
-print('Acesso liberado!')
+#lista
+
+frutas = ['Abacate','Banana','Morango']
+frutas.append('Uva')
+frutas.remove('Banana')
+print(len(frutas))
+print(frutas)
