@@ -1,4 +1,5 @@
-def saudacao(nome, idade):
-    print(f'Olá, {nome}. Você têm {idade} anos de idade')
+def somar(num1, num2):
+    return num1 + num2
 
-saudacao('Pedro', 23)
+total = somar(2,3)
+print(f'{total}')
