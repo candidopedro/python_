@@ -1,4 +1,9 @@
-#Tupla - dados imutaveis
+#Dicionários
 
-meses = ('janeiro', 'fevereiro')
-print(meses[1])
+alunos = {
+    'nome' : 'Pedro',
+    'idade' : 23,
+    'nota': 10
+}
+
+print(alunos['nome'])
