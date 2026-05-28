@@ -1,4 +1,4 @@
-def saudacao():
-    print('Olá')
+def saudacao(nome):
+    print(f'Olá, {nome}')
 
-saudacao()
+saudacao('Pedro')
