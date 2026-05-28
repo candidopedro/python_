@@ -1,4 +1,4 @@
-def saudacao(nome):
-    print(f'Olá, {nome}')
+def saudacao(nome, idade):
+    print(f'Olá, {nome}. Você têm {idade} anos de idade')
 
-saudacao('Pedro')
+saudacao('Pedro', 23)
