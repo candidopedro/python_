@@ -1,9 +1,9 @@
 #Dicionários
 
 alunos = {
-    'nome' : 'Pedro',
-    'idade' : 23,
-    'nota': 10
+    'nome' : input('Nome do aluno: '),
+    'idade' : input('Idade: '),
+    'nota': input('Nota:')
 }
 
 print(alunos['nome'])
