@@ -1,10 +1,10 @@
 class Pessoa:
-    def __init__(self,nome, idade):
+    def __init__(self, nome, idade):
         self.nome = nome
         self.idade = idade
 
     def apresentar(self):
-        print(f'Olá, meu nome é {self.name} e tenho {self.idade} anos')
+        print(f'Olá, meu nome é {self.nome} e tenho {self.idade} anos')
 
 class Funcionario(Pessoa):
     def __init__(self, nome, idade, cargo):
@@ -16,11 +16,17 @@ class Cliente(Pessoa):
         super().__init__(nome, idade)
         self.saldo = saldo
 
-    def comprar(self,valor_produto):
+    def comprar(self, valor_produto):
         if self.saldo >= valor_produto:
             print(f'Parabéns {self.nome}!')
             print(f'Item de {valor_produto} adquirido!')
         else:
-            print('Saldo insuficiente!')
-    
-cliente1 = Cliente.comprar('')
+            print(f'Saldo insuficiente!{self.nome}')
+
+#Cadastro de funcionários
+funcionario1 = Funcionario('João', 27, 'Gerente')
+funcionario1.apresentar()
+
+#Cadastro e dados dos clientes
+cliente1 = Cliente('Pedro', 23, 300)
+cliente1.comprar(301)
