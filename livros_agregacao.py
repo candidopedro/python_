@@ -26,5 +26,4 @@ livro_1 = Livros('Entendendo Algoritmos', 'Aditya Y. Bhargava', 0)
 #Adicionar a Biblioteca
 biblioteca = Biblioteca()
 biblioteca.adicionar_livro(livro_1)  
-biblioteca.apresentar_catalogo()          
-
+biblioteca.apresentar_catalogo()
