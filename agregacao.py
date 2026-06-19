@@ -19,10 +19,12 @@ class Carro:
 
 #Cadastro de motor
 motor_v6 = Motor('Ford', 300)
+motor_v8 = Motor('Ferrari', 650)
 
 #Adicionando motor
 carro = Carro()
 carro.adicionar_motor(motor_v6)
+carro.adicionar_motor(motor_v8)
 
 #Listar motor
 carro.listar_motores()
