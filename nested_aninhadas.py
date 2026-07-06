@@ -8,11 +8,13 @@ class Computador:
         self.gpu_nome = gpu_nome # ---
         self.gpu = self.GPU(modelo_gpu, vram) # ---
     
-    def mostrar_configuracoes(self):
-        print (f'Modelo: {self.modelo}')
-        print (f'')
+    def mostrar_configuracoes_(self):
+        print(f'Computador: {self.modelo}')
 
     class GPU: # Nested class - Uma classe dentro da outra 
         def __init__(self, modelo_gpu, vram):
             self.modelo_gpu = modelo_gpu
             self.vram = vram    
+        
+        def mostrar_gpu(self):
+            print(f'')
