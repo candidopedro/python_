@@ -2,5 +2,5 @@
 try:
     letras = ['a','b','c']
     print(letras[3]) # <-- O erro está localizando aqui, pois não há nada no index [3] (0,1,2)
-except:
+except IndexError:
     print('Index não existe')
