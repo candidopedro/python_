@@ -1,7 +1,7 @@
-frutas = ["maçã", "banana", "laranja", "morango", "abacaxi", "uva", "manga"]
+frutas = ["maçã", "banana", "laranja"]
 
-paises = ["Brasil", "Argentina", "Portugal", "Japão", "Canadá", "Egito", "Austrália"]
+paises = ["Brasil", "Argentina", "Portugal"]
 
 for fruta in frutas:
     for pais in paises:
-        print()
+        print(fruta, pais)
